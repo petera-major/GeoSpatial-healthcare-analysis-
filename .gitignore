@@ -1,2 +1,5 @@
 requirements.txt
 /.venv
+/.raw
+/.raw/mua
+/.raw/tracts_fl
