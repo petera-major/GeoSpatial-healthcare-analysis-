@@ -1,10 +1,16 @@
-requirements.txt
-/.venv
+# Environments & system
+.venv/
+__pycache__/
+.DS_Store
+.vscode/
+
+# Data
 data/raw/
 data/info/
-/data/processed/
+data/processed/
+
+# Secrets
 .env
-data/processed/top_deserts.csv/
-data/processed/summary_stats.json/
-data/processed/fl_tracts_distances.geo.json/
-data/processed/tracts_fl_equity.geojson/
+py/covert.py/
+
+requirements.txt
