@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+.DS_Store
+.vscode/
+data/**
+!data/processed/summary_stats.json
+!data/top_deserts_equity.csv
