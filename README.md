@@ -57,7 +57,7 @@ Pink tracts = pharmacy deserts
 Green dots = active pharmacies
 Rural north & south Florida show the largest coverage gaps
 
-[Explore the interactive map here](https://kepler.gl/demo/map?mapUrl=https://dl.dropboxusercontent.com/scl/fi/lbsct5c3cyzprwkfxhxav/keplergl_2rbmloc.json?rlkey=0k9564kqimm58ul0iqmk62rni&dl=0)
+[Explore the interactive map here. After you click this link, click the option Load Map using URL.](https://kepler.gl/demo/map?mapUrl=https://dl.dropboxusercontent.com/scl/fi/lbsct5c3cyzprwkfxhxav/keplergl_2rbmloc.json?rlkey=0k9564kqimm58ul0iqmk62rni&dl=0)
 
 ---
 ## Tech Stack
