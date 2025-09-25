@@ -3,7 +3,7 @@
 
 <img src="visual/dash.png" width="650">
 
---
+---
 
 **Project Overview**
 - Access to pharmacies is a cornerstone of healthcare equity. This project identifies and maps pharmacy deserts in Florida — census tracts where residents live beyond reasonable distance to a pharmacy.
@@ -14,7 +14,7 @@
 - HRSA Medically Underserved Areas (MUA/P)
 - Python’s geospatial stack (pandas, geopandas, shapely)
 
---
+---
 ## Methodology
 
 1. **Data Engineering (ETL)**
@@ -32,7 +32,7 @@
    - Flagged deserts in high-SVI communities (≥0.75)
    - Measured overlap with federally designated MUA/P areas
 
---
+---
 ## Key Findings
 - 1,419 of 5,160 tracts (27.5%) in Florida are pharmacy deserts
 - Urban deserts: 34% of tracts vs Rural deserts: 11%
@@ -51,7 +51,7 @@ Expanding access could involve:
 - Leveraging mobile clinics in rural gaps
 - Prioritizing high-SVI communities and pharmacy deserts because those residents are the most at risk.
 
---
+---
 ## Visualization
 Pink tracts = pharmacy deserts
 Green dots = active pharmacies
@@ -59,10 +59,10 @@ Rural north & south Florida show the largest coverage gaps
 
 [Explore the interactive map here](https://kepler.gl/demo/map?mapUrl=https://dl.dropboxusercontent.com/scl/fi/lbsct5c3cyzprwkfxhxav/keplergl_2rbmloc.json?rlkey=0k9564kqimm58ul0iqmk62rni&dl=0)
 
---
+---
 ## Tech Stack
  - Python → pandas, geopandas, shapely, pyproj
- - Visualization → [Kepler.gl](https://kepler.gl), [QGIS](https://qgis.org/en/site/), [Folium](https://python-visualization.github.io/folium/)
+ - Visualization → [Kepler.gl](https://kepler.gl), [QGIS](https://qgis.org/en/site/), [Folium](https://pythonvisualization.github.io/folium/)
 ### Data Sources:
 Using open public health datasets, I built an **end-to-end data pipeline** that combines:  
 - [NPI pharmacy data](https://download.cms.gov/nppes/NPI_Files.html)  
@@ -70,7 +70,7 @@ Using open public health datasets, I built an **end-to-end data pipeline** that 
 - [Census TIGER/Line Tracts](https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html)  
 - [CDC SVI 2022](https://www.atsdr.cdc.gov/placeandhealth/svi/data_documentation_download.html)  
 - [HRSA MUA/P](https://data.hrsa.gov/data/download)  
---
+---
 ## Why This Project Matters
 **Pharmacy deserts highlight structural inequities in healthcare access. By combining ETL, geospatial analysis, and equity metrics, this project shows how data science can support public health decision-making.**
 
