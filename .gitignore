@@ -2,3 +2,4 @@ requirements.txt
 /.venv
 data/raw/
 data/info/
+data/processed/

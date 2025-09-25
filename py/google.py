@@ -1,8 +1,13 @@
 import pandas as pd
 import googlemaps
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+api_key=os.getenv("GOOGLE_API")
 
 df = pd.read_csv("florida_pharmacies_clean.csv")
-gmaps = googlemaps.Client(key="AIzaSyAESdLwpjrSVPdjOEERHP1PhSkUE3HNq-E")
+gmaps = googlemaps.Client(key=api_key)
 
 lats, lons = [], []
 for addr in df["full_address"]:
