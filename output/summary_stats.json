@@ -1,0 +1,11 @@
+{
+  "total_tracts": 5160,
+  "desert_tracts": 1419,
+  "desert_rate_percent": 27.5,
+  "by_area_type_percent": {
+    "rural": 11.29,
+    "urban": 34.01
+  },
+  "high_SVI_deserts_count": 736,
+  "deserts_in_MUA_count": 1061
+}

@@ -1,7 +1,24 @@
+# junk
 .venv/
 __pycache__/
 .DS_Store
 .vscode/
-data/**
-!data/processed/summary_stats.json
-!data/top_deserts_equity.csv
+.env
+
+# ignore everything by default
+*
+
+# keep only these (must unignore the dirs AND their contents)
+!.gitignore
+!README.md
+!requirements.txt
+
+!src/
+!src/**
+
+!visual/
+!visual/**
+
+!output/
+!output/**
+
