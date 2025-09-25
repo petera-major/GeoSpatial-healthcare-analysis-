@@ -74,6 +74,6 @@ Using open public health datasets, I built an **end-to-end data pipeline** that 
 ## Why This Project Matters
 **Pharmacy deserts highlight structural inequities in healthcare access. By combining ETL, geospatial analysis, and equity metrics, this project shows how data science can support public health decision-making.**
 
- - Demonstrates end-to-end project delivery — from raw data wrangling to geospatial joins, modeling, and visualization
+ - Demonstrates end-to-end project delivery from raw data to geospatial joins, modeling, and visualization
  - Applies real healthcare datasets to produce actionable insights
  - Showcases data storytelling with clear findings and maps
