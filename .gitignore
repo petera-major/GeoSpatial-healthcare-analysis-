@@ -3,3 +3,4 @@ requirements.txt
 data/raw/
 data/info/
 data/processed/
+.env
